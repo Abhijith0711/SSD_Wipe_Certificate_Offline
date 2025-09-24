@@ -1,0 +1,18 @@
+# --- Security: Never commit private keys ---
+key.pem
+
+# --- Generated files & artifacts ---
+cert.pem
+*.pdf
+*-signed.json
+.rnd
+
+# --- Python specific ignores ---
+# Virtual environment folders
+venv/
+env/
+.venv/
+
+# Python cache
+__pycache__/
+*.pyc
